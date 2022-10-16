@@ -16,8 +16,8 @@ class StringExTest {
             softly.assertThat(str1 == str3).isFalse();
             softly.assertThat(str2 == str3).isFalse();
             softly.assertThat(str1.equals(str2)).isTrue();
-            softly.assertThat(str1.equals(str2)).isTrue();
-            softly.assertThat(str1.equals(str2)).isTrue();
+            softly.assertThat(str1.equals(str3)).isTrue();
+            softly.assertThat(str2.equals(str3)).isTrue();
         });
     }
 
